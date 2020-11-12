@@ -10,8 +10,10 @@ namespace p1
 		{
 			IDmApplication rm = new StudioRMLib.DmApplication();
 			rm.ControlBars.Output.WriteLine("Hello from Mono!");
-            rm.SomethingChanges();
+            
 			Console.WriteLine("Hello World!");
+            
+            Console.ReadKey();
 
 		}
 	}
