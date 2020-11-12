@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{3BD4EFFC-2038-4586-93B7-AC6D9C76F6FE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>p1</RootNamespace>
+    <AssemblyName>p1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Interop.DmFileLib">
+      <HintPath>..\..\..\Core\tryRunRM\RmCoreObj\rcw\Interop.DmFileLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.DmFilterLib">
+      <HintPath>..\..\..\Core\tryRunRM\RmCoreObj\rcw\Interop.DmFilterLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.DSDIE3Lib">
+      <HintPath>..\..\..\Core\tryRunRM\RmCoreObj\rcw\Interop.DSDIE3Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.EwCommonData">
+      <HintPath>..\..\..\Core\tryRunRM\RmCoreObj\rcw\Interop.EwCommonData.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.EwCoreLib">
+      <HintPath>..\..\..\Core\tryRunRM\RmCoreObj\rcw\Interop.EwCoreLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ISTSLib">
+      <HintPath>..\..\..\Core\tryRunRM\RmCoreObj\rcw\Interop.ISTSLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.LegendServicesLib">
+      <HintPath>..\..\..\Core\tryRunRM\RmCoreObj\rcw\Interop.LegendServicesLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.StudioCoreLib">
+      <HintPath>..\..\..\Core\tryRunRM\RmCoreObj\rcw\Interop.StudioCoreLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.StudioRMLib">
+      <HintPath>..\..\..\Core\tryRunRM\RmCoreObj\rcw\Interop.StudioRMLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

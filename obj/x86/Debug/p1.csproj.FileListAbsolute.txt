@@ -1,0 +1,15 @@
+D:\Datamine\Xamarin\p1\p1\bin\Debug\p1.exe
+D:\Datamine\Xamarin\p1\p1\bin\Debug\p1.pdb
+D:\Datamine\Xamarin\p1\p1\bin\Debug\Interop.DmFileLib.dll
+D:\Datamine\Xamarin\p1\p1\bin\Debug\Interop.DmFilterLib.dll
+D:\Datamine\Xamarin\p1\p1\bin\Debug\Interop.DSDIE3Lib.dll
+D:\Datamine\Xamarin\p1\p1\bin\Debug\Interop.EwCommonData.dll
+D:\Datamine\Xamarin\p1\p1\bin\Debug\Interop.EwCoreLib.dll
+D:\Datamine\Xamarin\p1\p1\bin\Debug\Interop.ISTSLib.dll
+D:\Datamine\Xamarin\p1\p1\bin\Debug\Interop.LegendServicesLib.dll
+D:\Datamine\Xamarin\p1\p1\bin\Debug\Interop.StudioCoreLib.dll
+D:\Datamine\Xamarin\p1\p1\bin\Debug\Interop.StudioRMLib.dll
+D:\Datamine\Xamarin\p1\p1\bin\Debug\stdole.dll
+D:\Datamine\Xamarin\p1\p1\obj\x86\Debug\p1.csprojResolveAssemblyReference.cache
+D:\Datamine\Xamarin\p1\p1\obj\x86\Debug\p1.exe
+D:\Datamine\Xamarin\p1\p1\obj\x86\Debug\p1.pdb
